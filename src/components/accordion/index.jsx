@@ -28,7 +28,7 @@ export default function Accordian() {
         
       <div className="accordian w-200 ">
       <h1 className="text-5xl bg-transparent mb-10">Accordian</h1>
-      <button className="mb-2 border-0 border-gray-700 w-44 p-2 rounded-xl bg-gray-800 shadow-inner shadow-black cursor-pointer " onClick={() => setEnableMultiSelection(!enablemultiSelection)}>Enable multi selection</button>
+      <button className="mb-2 border-0 border-gray-700 w-44 p-2 rounded-xl bg-gray-800 shadow-xl shadow-black cursor-pointer " onClick={() => setEnableMultiSelection(!enablemultiSelection)}>Enable multi selection</button>
         {data && data.length > 0 ? (
           data.map((dataItem) => (
             <div className="item">
