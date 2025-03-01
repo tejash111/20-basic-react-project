@@ -55,7 +55,7 @@ export default function ImageSlider({url,limit=5,page=1}) {
     return (
         <div className="mt-14">
             <hr className="text-gray-600"/>
-            <h1 className="mb-8 text-5xl flex-nowrap">Image slider</h1>
+            <h1 className="mb-8 mt-13 text-5xl flex-nowrap">Image slider</h1>
 
             <div className="mt-15 flex relative justify-center items-center h-80 w-fit sga">
             
